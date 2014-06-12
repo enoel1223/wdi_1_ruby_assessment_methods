@@ -7,7 +7,7 @@ end
 y = square(2)
 # What is the value of 'x' after this line executes?
 
-x = 4
+x = has no value
 
 #### Question 2
 # What is the value of `age` after we call `get_older`?
@@ -19,7 +19,7 @@ end
 age = 10
 get_older(age)
 
-age = 11
+age = 10
 
 #### Question 3
 # What is the return value of `jump` when called on the last line here?
@@ -34,7 +34,7 @@ def jump
 end
 
 energy = 2
-jump = 2
+jump = ERROR
 
 
 #### Question 4
@@ -55,4 +55,4 @@ def greeting(name:, salutation: 'Hi', volume: :low)
 end
 
 
-greeting("Puny Humans", "Hello", volume: :high)
+greeting(name: "Puny Humans", salutation: "Hello", volume: :high)
